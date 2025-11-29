@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        color: #333;
+    }
+    .form-container {
+        background: #fff;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        padding: 30px;
+        width: 40%;
+        margin: 50px auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: left;
+    }
+    .form-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007bff;
+    }
+    label {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
+input[type="text"], input[type="password"], input[type="email"] {
+        width: 95%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    input[type="submit"] {
+        background: #28a745;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 20px;
+        width: 100%;
+    }
+    input[type="submit"]:hover {
+        background: #218838;
+    }
+</style>
+
+</head>
+<body>
+        <center>
+        <div class="form-container">
+        
+       <h1>
+       <u>Add Customer Details</u><br><br>
+        </h1>
+       <form action="crs" method="post">
+         UserName <input type="text" name="cname"><br><br>
+         Password <input type="text" name="cpwd"><br><br>
+         FirstName <input type="text" name="cfname"><br><br>
+         LastName <input type="text" name="clname"><br><br>
+         Address <input type="text" name="caddr"><br><br>
+         MailId <input type="text" name="cmail"><br><br>
+         Mobile <input type="text" name="cmo"><br><br>
+         <input type="submit" value="Register">
+       </form>
+      </div>
+</body>
+</html>
